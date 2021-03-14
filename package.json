@@ -1,0 +1,13 @@
+{
+  "name": "pratica_persistencia",
+  "version": "1.0.0",
+  "main": "app.js",
+  "author": "Grimberg Cryzan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "consign": "^0.1.6",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.0"
+  }
+}
