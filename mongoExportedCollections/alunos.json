@@ -1,0 +1,39 @@
+[{
+  "_id": {
+    "$oid": "604d8886dc51975ba0f920f4"
+  },
+  "matricula": 362965,
+  "nome": "Thiago",
+  "dataNascimento": {
+    "$date": "1996-01-12T03:58:26.625Z"
+  },
+  "telefone": {
+    "operadora": "claro",
+    "ddd": 85,
+    "numero": 991207255
+  },
+  "curso": {
+    "nome": "Web",
+    "turno": "Vespertino"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604d8a12c967241df8688e4a"
+  },
+  "matricula": 362964,
+  "nome": "Grimberg",
+  "dataNascimento": {
+    "$date": "1996-01-12T03:58:26.625Z"
+  },
+  "telefone": {
+    "operadora": "claro",
+    "ddd": 85,
+    "numero": 991207255
+  },
+  "curso": {
+    "nome": "Web",
+    "turno": "Vespertino"
+  },
+  "__v": 0
+}]

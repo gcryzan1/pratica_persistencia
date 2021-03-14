@@ -1,0 +1,49 @@
+[{
+  "_id": {
+    "$oid": "604d84f2ef0ea706f8b2ddd3"
+  },
+  "codigo": 1,
+  "nome": "Pici",
+  "cidade": "Fortal",
+  "cursos": [
+    {
+      "_id": {
+        "$oid": "604d84f2ef0ea706f8b2ddd4"
+      },
+      "nome": "Web",
+      "turno": "Vespertino"
+    },
+    {
+      "_id": {
+        "$oid": "604d84f2ef0ea706f8b2ddd5"
+      },
+      "nome": "Métodos",
+      "turno": "Matutino"
+    }
+  ],
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "604d854cef0ea706f8b2ddd6"
+  },
+  "codigo": 2,
+  "nome": "Porangabussu",
+  "cidade": "Fortaleza",
+  "cursos": [
+    {
+      "_id": {
+        "$oid": "604d854cef0ea706f8b2ddd7"
+      },
+      "nome": "Medicina",
+      "turno": "Vespertino"
+    },
+    {
+      "_id": {
+        "$oid": "604d854cef0ea706f8b2ddd8"
+      },
+      "nome": "Odondtologia",
+      "turno": "Matutino"
+    }
+  ],
+  "__v": 0
+}]
