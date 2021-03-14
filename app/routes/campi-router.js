@@ -6,6 +6,7 @@ const router = express.Router();
 
 router.get('/', campiController.index);
 router.post('/', campiController.postCampi);
-// router.delete('/', campiController.index);
+router.get('/:codigo', campiController.getByCodigo);
+router.delete('/:codigo', campiController.deleteByCodigo);
 
 module.exports = (app) => app.use('/api/campi', router);

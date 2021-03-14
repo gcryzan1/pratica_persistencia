@@ -1,11 +1,11 @@
 const mongoose = require('../../config/mongodb');
 
 const alunoSchema = mongoose.Schema({
-    matricula: Number,
+    matricula: { type: Number, unique: true, require: true },
     nome: String,
     dataNascimento: Date,
     telefone: {
-        toperadora: String,
+        operadora: String,
         ddd: Number,
         numero: Number,
     },
